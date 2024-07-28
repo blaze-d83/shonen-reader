@@ -1,0 +1,65 @@
+# Django
+*.log
+*.pot
+*.pyc
+*.py[cod]
+*.so
+*.db
+*.sqlite3
+*.pyo
+*.pyd
+
+# Django migration files
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment
+venv/
+venv/*
+
+# Node.js
+node_modules/
+
+# Media files
+/media/
+!media/.gitkeep
+
+# Static files
+/static/
+!static/.gitkeep
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.tox/
+.cache/
+nosetests.xml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.bak
+*.swp
+*.swo
+
